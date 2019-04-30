@@ -1,21 +1,13 @@
-# романчук вадим
-"""
-яке число б≥льше?
-"""
 a = int(input("input number a"))
 b = int(input("input number b"))
 print(a if a >= b else b)
-"""
-парне чи непарне число?
-"""
+
 a = int(input("print number "))
 if a % 2 == 0:
-    print("парне")
+    print("parne")
 else:
-    print("непарне")
-"""
-¬изначити фактор≥ал числа
-"""
+    print("neparne")
+
 a = int(input())
 b = 1
 for i in range(1, a+1):
