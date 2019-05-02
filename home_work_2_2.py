@@ -1,14 +1,14 @@
 a = input("vvedit chislo ")
-# Знайти добуток цифр цього числа.
+# Р—РЅР°Р№С‚Рё РґРѕР±СѓС‚РѕРє С†РёС„СЂ С†СЊРѕРіРѕ С‡РёСЃР»Р°.
 one = int(a[1])
 two = int(a[2])
 three = int(a[3])
 four = int(a[0])
 dobutok = one*two*three*four
 print("dobutok zufr chusla =", dobutok)
-# Записати число в реверсному порядку.
+# Р—Р°РїРёСЃР°С‚Рё С‡РёСЃР»Рѕ РІ СЂРµРІРµСЂСЃРЅРѕРјСѓ РїРѕСЂСЏРґРєСѓ.
 a = a[::-1]
 print("chuslo v reversomy poryadky =", a)
-# Посортувати цифри, що входять в дане число
+# РџРѕСЃРѕСЂС‚СѓРІР°С‚Рё С†РёС„СЂРё, С‰Рѕ РІС…РѕРґСЏС‚СЊ РІ РґР°РЅРµ С‡РёСЃР»Рѕ
 sort = sorted(str(a), reverse=False)
 print("chusla po vozrostaniy = ", sort)
